@@ -1,0 +1,86 @@
+.cancha{
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #8cb27c;
+
+}
+.borde{
+  background-color: #8cb27c;
+  border: 5px solid white;
+  width: 750px;
+  height: 350px;
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+  margin: 0;
+}
+.arco_left{
+  background-color: #8cb27c;
+  border: 5px solid white;
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  bottom: 100px;
+  left:-5px;
+
+}
+.arco_right{
+  background-color: #8cb27c;
+  border: 5px solid white;
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  bottom: 100px;
+  left: 675px;
+}
+.circulo {
+     width: 150px;
+     height: 150px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #8cb27c;
+     border: 5px solid white;
+     position: absolute;
+     bottom: 100px;
+     left: 300px;
+}
+.pelota_left {
+     width: 20px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     border: 1px outset white;
+     position: absolute;
+     bottom: 235px;
+     left: 55px;
+    
+}
+.pelota_center {
+     width: 20px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     border: 1px outset white;
+     position: absolute;
+     bottom: 300px;
+     left: 375px;
+}
+.pelota_right {
+     width: 20px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: white;
+     border: 1px outset white;
+     position: absolute;
+     bottom: 115px;
+     left: 650px;
+}
